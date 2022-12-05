@@ -1,0 +1,65 @@
+/* head */
+.head{
+    /*margin*/
+    margin-top: -23px;
+    margin-bottom: 50px;
+
+    /*color stuff*/
+    background-color: blue;
+    color: white;
+
+    /*sizing*/
+    height: 200px;
+    width: 100%;
+
+    /*flex Box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mainstuff */
+
+.mainNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainStuffMainDiv{
+    width: 90%;
+    margin-left: 5%;
+    /* margin-right: 20%; */
+}
+.mainStuffHeader{
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* footer */
+.footer{
+    /* margin */
+    margin-top: 100px;
+
+    /* sizeing */
+    font-size: 15px;
+    width: 100%;
+    height: 150px;
+
+    /* color stuff */
+    background-color: blue;
+    color: white;
+
+    /* flex box */
+    display: flex;
+    align-items: center;
+}
+
+.footerText{
+    padding-left: 20px;
+}
